@@ -1583,7 +1583,6 @@ d.parent(".dropdown-menu").length&&(d=d.closest("li.dropdown").addClass("active"
              * Sets up layouts
              */
             function setupLayouts() {
-                $('#map').height($(window).height() - 375);
                 $('#shellresult').height($(window).height() - 275);
 				$('#map').height($(window).height() - 210);
                 $('#editorwindow').height($(window).height() - 275);
